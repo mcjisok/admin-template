@@ -1,0 +1,53 @@
+const statusStore = {
+  // 法幣賬戶的流水狀態
+  currencyWater:[
+    {value:'WithdrawApprove',label:'提幣審核'},
+    {value:'WithdrawApproveCancel',label:'提幣審核未通過'},
+    {value:'Outing',label:'提幣等待到帳'},
+    {value:'WithdrawCancel',label:'提幣取消'},
+    {value:'RemoveItem',label:'廣告下架'},
+    {value:'Establish',label:'下单'},
+    {value:'NewItem',label:'新建廣告'},
+    {value:'Deposit',label:'充幣'},
+    {value:'Withdraw',label:'提幣審核通過'},
+    {value:'OUT',label:'提幣'},
+    {value:'IN',label:'充幣'},
+    {value:'overdue',label:'訂單過期'},
+    {value:'cancel',label:'訂單取消'},
+    {value:'SELL',label:'出售'},
+    {value:'BUY',label:'購買'},
+    {value:'notsale',label:'下架廣告'},
+    {value:'DIVIDEND',label:'分紅'},
+    {value:'DIVIDENDPA',label:'期約分紅'},
+    {value:'DIVIDENDDB',label:'通路商碰撞分紅'},
+    {value:'DIVIDENDDB2',label:'通路商每日分紅'},
+    {value:'INVITEDB',label:'邀請DB獎勵'},
+    {value:'ACTIVITY',label:'活動獎勵'},
+    {value:'TOBB',label:'劃轉至幣幣帳戶'},
+    {value:'FROMBB',label:'劃轉至法幣賬戶'},
+
+    {value:'BusinessApprove',label:'VIP申請'},
+    {value:'SBusinessApprove',label:'SVIP申請'},
+    {value:'BusinessApproveUp',label:'VIP升級'},
+    {value: "USERROLENOPASS",label: "角色申請未通過"},
+    {value: "USERROLEDELETE",label: "角色解約"},
+    {value: "USERROLEAPPLY", label: "角色申請"},
+    {value: "USERROLEPASS",label: "角色申請通過"},
+    // {value:'USERROLENOPASS5',label:'VIP申请未通过'},
+    // {value:'USERROLENOPASS6',label:'SVIP申请未通过'},
+    // {value:'USERROLEDELETE5',label:'SVIP申请未通过'},
+    // {value:'USERROLENOPASS6',label:'SVIP申请未通过'},
+    {value:'ADMIN',label:'管理員糾正'},
+    {value:'ACTIVITY_RACE_REWARD',label:'環球杯獎勵結算'},
+    {value:'ACTIVITY_RACE_SIGNUP',label:'環球杯報名費用'},
+    {value:'ACTIVITY_RACE_REWARDDB',label:'環球杯DB獎勵'},
+    {value:'FWELCOME',label:'迎新補貼'},
+    {value:'TOPERFECT',label:'購買璀璨'},
+    {value:'PACKET',label:'紅包'},
+    {value:'GIFT_ACTIVITY',label:'贈金'},
+    {value:'RENEW7',label:'通路商續約'},
+
+  ]
+}
+
+export default statusStore
